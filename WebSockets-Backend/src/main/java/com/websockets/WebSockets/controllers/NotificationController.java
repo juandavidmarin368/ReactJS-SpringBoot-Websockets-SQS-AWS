@@ -158,5 +158,22 @@ public class NotificationController {
 
     }
     // return returnSTRING;
+	
+	
+	/*
+	
+		TO SEND DATA TO THE QUEUE MUST BE SEND IT LIKE THIS:
+		
+		{
+
+			"id":"7987",
+			"nombre":"NewName.."
+
+		}
+		
+		give it a different ID each time you send a new item
+
+	
+	*/
 
 }
